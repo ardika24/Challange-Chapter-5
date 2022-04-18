@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+:root {
+    --bg-main-color: #9C835F;
+    --text-warning-color:#F9B23D;
+    --text-dark-color: #000000;
+    --text-red-color:#BD0000;
+    --font-main:'Open Sans', sans-serif;
+}
+
+body {
+    background: var(--bg-main-color);
+    box-sizing: border-box;
+    min-width: 100%;
+}
+
+section nav {
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+section nav ul {
+    list-style-type: none;
+    display: flex;
+    padding-top: 20px;
+}
+
+section nav ul li a {
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px 5px;
+    font-family: var(--font-main);
+    color: var(--text-warning-color);
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+
+
+section nav ul li a :nth-child(1) {
+    text-decoration: none;
+    color: #724C21;
+    font-size: 30px;
+
+}
+
+.player {
+    align-items: center;
+    justify-content: space-evenly;
+
+
+}
+
+.player p {
+    font-family: var(--font-main);
+    color: var(--text-dark-color);
+    letter-spacing: 3px;
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.gamePlay {
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.gamePlay .hand :hover {
+    cursor: pointer;
+
+}
+
+.hands {
+    background-color: #c4c4c4;
+    border-radius: 20px;
+}
+
+.hand {
+    padding: 15px;
+    margin: 15px;
+}
+
+.description {
+    font-family: var(--font-main);
+    color: var(--text-red-color);
+    font-weight: bold;
+    font-size: 144px;
+    letter-spacing: 0.1em;
+
+}
+
+.refresh {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.refresh img {
+    width: 80px;
+}
+
+.refresh :hover {
+    cursor: pointer;
+    background-color: #c4c4c4;
+    border-radius: 20px;
+}
+
+.statusResult {
+    width: 217px;
+    height: 166px;
+    border-radius: 10px;
+    background-color: #4C9654;
+    transform: rotate(20deg);
+}
+
+.statusResult {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.statusResult {
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+    color: #ffffffff;
+    font-family: var(--font-main);
+    font-size: 38px;
+    text-transform: uppercase;
+}
+
+.result-draw {
+    position: relative;
+    justify-content: center;
+    align-items: center
+}
+
+.result-draw {
+    color: #035B0C;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+    color: #ffffffff;
+    font-family: var(--font-main);
+    font-size: 38px;
+    text-transform: uppercase;
+}
